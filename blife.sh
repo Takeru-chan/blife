@@ -7,6 +7,10 @@
 # Description:
 #      This script tells you this MacBook's battery status. 
 #
+#      Copyright (c) 2014 Takeru.
+#      Released under the MIT license
+#      http://opensource.org/licenses/MIT
+#
 #############################################################
 ioreg -l                                                    |
 grep '\(product-name\)\|\(Capacity\)\|\(CycleCount\)'       |
