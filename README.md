@@ -4,7 +4,7 @@ MacBookのバッテリー状態を表示するシェルスクリプトです。
 整えた後もshebangを含む全てのコメントを外して連結すればちゃんとしたOne-linerです。  
 ##使い方
 **MacBookシリーズ**のターミナルでblife.shと入力します。…が、aliasにblifeと設定するのがオススメ。  
-```shell
+```
 Takeru-MBP:~ takeru$ alias blife
 alias blife='~/tools/blife.sh'
 Takeru-MBP:~ takeru$ blife
