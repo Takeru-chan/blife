@@ -1,11 +1,11 @@
 #The shell script which displays MacBook's battery status.
 MacBookのバッテリー状態を表示するシェルスクリプトです。  
-[GistにおいてあるOne-liner](https://gist.github.com/7f1b2c6732fc753c32f4.git)の体裁を整えました。
+[Gistに置いてあるOne-liner](https://gist.github.com/7f1b2c6732fc753c32f4.git)の体裁を整えました。
 整えた後もshebangを含む全てのコメントを外して連結すればちゃんとしたOne-linerです。  
 
 I've improved [the one-liner on my Gist](https://gist.github.com/7f1b2c6732fc753c32f4.git).
 If you remove comments and then catenate this script, you can make the one-liner again.
-##Usage|使い方
+##Usage | 使い方
 **MacBookシリーズ**のターミナルでblife.shと入力します。…が、aliasにblifeと設定するのがオススメ。  
 
 **Effective only on the MacBook.**
@@ -34,3 +34,9 @@ You will know much more status of battery than the system information.
 ##License
 This script has released under the MIT license.  
 [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
+##One more thing...
+[Automatorを使ってMacアプリにしてみました。](http://www.ezcoding.jp/apps/blife.dmg)
+リンク先からdmgファイルをダウンロードできます。
+
+実行結果をどうやって表示したらいいのかよくわからなかったので、Macの音声読み上げ機能のKarenさんが喋ります。
+アイコンは[picabayからPublic Domainのもの](http://pixabay.com/en/battery-energy-electricity-power-98396/)を使わせていただきました。
