@@ -1,5 +1,5 @@
 #! /bin/sh
-# @(#) blife.sh ver.1.0  2014.11.3  (c)Takeru.
+# @(#) blife.sh ver.1.0.1  2014.11.16  (c)Takeru.
 #
 # Usage:
 #      blife.sh
@@ -31,7 +31,7 @@ END{
             "State of Charge\t\t%d%%\n"                     \
             "Cycle Count\t\t%d\n"                           \
             "Cycle Count Remaining\t%d\n"                   \
-            "Full Charge Capacity\t%d\(\mAh\)\n"            \
+            "Full Charge Capacity\t%d\(mAh\)\n"             \
             "State of Health\t\t%3.1f%%\n\n",
             Cap,SOC,curCC,maxCC-curCC,curCap,SOH)}
     }'                                                      |
