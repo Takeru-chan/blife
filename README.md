@@ -2,6 +2,7 @@
 MacBookのバッテリー状態を表示するシェルスクリプトです。  
 [Gistに置いてあるOne-liner](https://gist.github.com/7f1b2c6732fc753c32f4.git)の体裁を整えました。
 整えた後もshebangを含む全てのコメントを外して連結すればちゃんとしたOne-linerです。  
+スクリプトの詳細は[awkでMacBookの電池情報を表示するスクリプト|簡単！プログラミング](http://www.ezcoding.jp/awk_batterystatus.html)に解説してあります。
 
 I've improved [the one-liner on my Gist](https://gist.github.com/7f1b2c6732fc753c32f4.git).
 If you remove comments and then catenate this script, you can make the one-liner again.
