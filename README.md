@@ -40,4 +40,4 @@ This script has released under the MIT license.
 リンク先からdmgファイルをダウンロードできます。
 
 実行結果をどうやって表示したらいいのかよくわからなかったので、Macの音声読み上げ機能のKarenさんが喋ります。
-アイコンは[picabayからPublic Domainのもの](http://pixabay.com/en/battery-energy-electricity-power-98396/)を使わせていただきました。
+アイコンは[pixabayからPublic Domainのもの](http://pixabay.com/en/battery-energy-electricity-power-98396/)を使わせていただきました。
