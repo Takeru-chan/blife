@@ -41,3 +41,8 @@ This script has released under the MIT license.
 
 実行結果をどうやって表示したらいいのかよくわからなかったので、Macの音声読み上げ機能のKarenさんが喋ります。
 アイコンは[pixabayからPublic Domainのもの](http://pixabay.com/en/battery-energy-electricity-power-98396/)を使わせていただきました。
+##And more...
+シェルスクリプトの結果を直接sayに突っ込む時は。。。  
+```
+Takeru-MBA:~ Takeru$ blife | sed 's/(mAh)/milliampere hour/g' | say
+```
