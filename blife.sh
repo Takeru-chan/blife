@@ -1,5 +1,5 @@
 #! /bin/sh
-# @(#) blife.sh ver.1.0.1  2014.11.16  (c)Takeru.
+# @(#) blife.sh ver.1.1  2016.2.14  (c)Takeru.
 #
 # Usage:
 #      blife.sh
@@ -12,6 +12,7 @@
 #      http://opensource.org/licenses/MIT
 #
 #############################################################
+if [ $(uname) = "Darwin" ]; then
 ioreg -l                                                    |
 grep '\(product-name\)\|\(Capacity\)\|\(CycleCount\)'       |
 awk '{
@@ -36,3 +37,6 @@ END{
             Cap,SOC,curCC,maxCC-curCC,curCap,SOH)}
     }'                                                      |
 grep -v -                                                   # 負の値が出たら異常値として表示しない。
+else
+echo "This system is not OSX."
+fi
