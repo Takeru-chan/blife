@@ -36,7 +36,7 @@ You will know much more status of battery than the system information.
 This script has released under the MIT license.  
 [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
 ##One more thing...
-[Automatorを使ってMacアプリにしてみました。](http://www.ezcoding.jp/apps/blife.dmg)
+[Automatorを使ってMacアプリにしてみました。](http://www.iroiro-making.com/apps/blife.dmg)
 リンク先からdmgファイルをダウンロードできます。
 
 実行結果をどうやって表示したらいいのかよくわからなかったので、Macの音声読み上げ機能のKarenさんが喋ります。
