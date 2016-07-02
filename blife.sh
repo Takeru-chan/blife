@@ -1,5 +1,5 @@
 #! /bin/sh
-# @(#) blife.sh ver.1.1  2016.2.14  (c)Takeru.
+# @(#) blife.sh ver.1.2  2016.7.2  (c)Takeru.
 #
 # Usage:
 #      blife.sh
@@ -13,6 +13,7 @@
 #
 #############################################################
 if [ $(uname) = "Darwin" ]; then
+date "+[%Y-%m-%d %H:%M:%S]"
 ioreg -l                                                    |
 grep '\(product-name\)\|\(Capacity\)\|\(CycleCount\)'       |
 awk '{
