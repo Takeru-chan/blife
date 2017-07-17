@@ -1,5 +1,5 @@
 #! /bin/sh
-# @(#) blife.sh ver.1.2  2016.7.2  (c)Takeru.
+# @(#) blife.sh ver.1.21  2017.7.17  (c)Takeru.
 #
 # Usage:
 #      blife.sh
@@ -29,11 +29,11 @@ END{
         if(curCap!=0)SOC=100*Cap/curCap;                    # 除算エラー避け
         if(maxCap!=0)SOH=100*curCap/maxCap;                 # 除算エラー避け
         printf("Your MacBook\047s Battery status is\n"      \
-            "Charge Remaining\t%d\(mAh\)\n"                 \
+            "Charge Remaining\t%d(mAh)\n"                 \
             "State of Charge\t\t%d%%\n"                     \
             "Cycle Count\t\t%d\n"                           \
             "Cycle Count Remaining\t%d\n"                   \
-            "Full Charge Capacity\t%d\(mAh\)\n"             \
+            "Full Charge Capacity\t%d(mAh)\n"             \
             "State of Health\t\t%3.1f%%\n\n",
             Cap,SOC,curCC,maxCC-curCC,curCap,SOH)}
     }'                                                      |
